@@ -32,7 +32,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost text-xl">My anniversary 1 year 5 month</a>
+        <a className="btn btn-ghost text-xl">My anniversary 1 year 4 month</a>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
