@@ -11,6 +11,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        beetle:
+          "url('https://custom.image/name.jpg')"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

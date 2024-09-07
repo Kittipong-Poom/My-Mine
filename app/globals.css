@@ -14,3 +14,35 @@
   transform-style: preserve-3d; /* ช่วยให้การแปลง 3D มีผล */
   transition: transform 0.5s ease; /* เพิ่มความเรียบเนียนให้กับการเปลี่ยนแปลง */
 }
+
+.bg-color{
+  background-color: #f27a8a;
+}
+
+.bg-color-hover{
+  background-color: #d5294d;
+}
+
+.border-color{
+  border-color: #b31d3f;
+}
+
+.card-zoom {
+  @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl w-60 h-60 rounded-2xl;
+}
+
+.card-zoom-image {
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+.card-zoom-text {
+  @apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-60;
+}
+
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-150;
+}
+.card-zoom:hover .card-zoom-text {
+  @apply scale-100;
+}
