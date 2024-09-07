@@ -36,7 +36,7 @@ const Footer = () => {
             >
               <path
                 d="M5 7h14M5 12h14M5 17h14"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linecap="round"
                 stroke="currentColor"
               ></path>
@@ -125,7 +125,7 @@ const Footer = () => {
             >
               <path
                 d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke-linejoin="round"
                 stroke-linecap="round"
                 stroke="currentColor"

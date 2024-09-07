@@ -76,7 +76,7 @@ const MyProfile: React.FC = () => {
           <button className="relative group cursor-pointer text-sky-50  overflow-hidden h-16 w-5/6 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold">
             <div className="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-40 h-40 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 bg-sky-900"></div>
             <div className="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-32 h-32 rounded-full group-hover:scale-150 group-hover:opacity-30 duration-500 bg-sky-900"></div>
-            <div className="relative z-20">Page {currentPage}</div>
+            <div className="relative z-20">My History</div>
           </button>
         </div>
 
@@ -93,20 +93,6 @@ const MyProfile: React.FC = () => {
           ))}
         </Slider>
 
-        <div className="flex justify-center mt-6">
-          <button
-            onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
-            className="px-4 py-2 bg-gray-800 text-white rounded-l"
-          >
-            Previous
-          </button>
-          <button
-            onClick={() => handlePageChange(currentPage + 1)}
-            className="px-4 py-2 bg-gray-800 text-white rounded-r"
-          >
-            Next
-          </button>
-        </div>
       </div>
     </section>
   );
